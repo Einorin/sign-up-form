@@ -8,7 +8,7 @@
 body{
     display: flex;
     height: 100vh;
-    background-color: #eedddd;
+    background-color: #F8F8F8;
 }
 .flex-container{
     display: flex;
@@ -43,9 +43,11 @@ body{
     min-width: 600px;
 }
 .top-msg{
-    font-size: 32px;
     flex: 1;
+    padding: 90px 24px 12px 24px ;
 }
+
+
 
 .right-form{
     background-color: #FFFFFF;
@@ -74,7 +76,7 @@ form{
 }
 
 legend{
-    font-size: 44px;
+    font-size: 32px;
 }
 label{
     font-size: 12px;
@@ -85,10 +87,18 @@ label{
 
 .btn{
     flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-weight: 500;
 }
 button{
     background-color: #596D48;
     width: 200px;
-    height: 70px;
-    border-radius: 16px;
+    height: 50px;
+    border-radius: 12px;
+    color:#eedddd;
+    font-weight: 900;
+    margin-left: 110px;
 }
