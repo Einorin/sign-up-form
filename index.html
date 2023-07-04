@@ -20,36 +20,38 @@
                 <p style="padding-top: 50px;">Sign-up now!</p>
             </div>
             <div class="right-form">
-                <form action="/" method="GET">
+                
+                <form method="GET" id="form">
                     <legend>Let's do this</legend>
                     <div class="name">
                         <div class="fname">
                             <label for="Fname">FIRST NAME</label>
-                            <input type="text" id="Fname" name="firstName">
+                            <input type="text" id="Fname" name="firstName" required>
                         </div>
                         <div class="lname">
                             <label for="Lname">LAST NAME</label>
-                            <input type="text" name="lastName" id="Lname">
+                            <input type="text" name="lastName" id="Lname" required>
                         </div>
                     </div>
                     <div class="contact">
                         <div>
                             <label for="email">EMAIL</label>
-                            <input type="email" name="email" id="email">
+                            <input type="email" name="email" id="email" required>
                         </div>
                         <div>
                             <label for="number">NUMBER</label>
-                            <input type="text" name="number" id="number" pattern="\d{11}">
+                            <input type="text" name="number" id="number" pattern="\d{11}" required placeholder="11 digits number">
                         </div>
                     </div>
                     <div class="pass">
                         <div>
                             <label for="password">PASSWORD</label>
-                            <input type="password" name="password-1" id="password">
+                            <input type="password" name="password" id="password">
                         </div>
                         <div>
                             <label for="password-2">CONFIRM PASSWORD</label>
-                            <input type="password" name="password-2" id="password-2">
+                            <input type="password" name="password" id="password-2">
+                            <div id="error" style="color: red;"></div>
                         </div>
                     </div>
                     <div class="btns">

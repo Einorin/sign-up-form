@@ -36,7 +36,6 @@ body{
     width: 100px;
 }
 .form-container{
-    border: black solid;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -66,8 +65,14 @@ body{
 }
 
 input{
-    max-width: 200px;
-    
+    max-width: 200px;  
+}
+input:focus{
+    border: blue solid;
+}
+#error[data-error] .password{
+    border-color: #c92432;
+    color: #c92432;
 }
 form{
     display: flex;
@@ -82,7 +87,9 @@ label{
     font-size: 12px;
     font-weight: 700;
 }
-
+#password{
+    color: #c92432;
+}
 
 
 .btn{
