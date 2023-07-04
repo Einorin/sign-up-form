@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;0,900;1,700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;;
+}
+body{
+    display: flex;
+    height: 100vh;
+    background-color: #eedddd;
+}
+.flex-container{
+    display: flex;
+    flex: 1;
+}
+.left-img{
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/chuttersnap-BofgeVFG-_w-unsplash.jpg);
+    background-size: 100% 100%;
+    min-width: 600px;
+    color: #ffefed;
+    justify-content: center;
+}
+.logo{
+    gap: 8px;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(4, 3, 5, 0.7);
+    text-align: center;padding: 8px;
+}
+.pandaImg{
+    width: 100px;
+}
+.form-container{
+    border: black solid;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-width: 600px;
+}
+.top-msg{
+    font-size: 32px;
+    flex: 1;
+}
+
+.right-form{
+    background-color: #FFFFFF;
+    flex: 2;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+}
+.right-form input{
+    flex-direction: column;
+    display: flex;
+}
+.name, .contact, .pass{
+    display: flex;
+    gap: 80px;
+}
+
+input{
+    max-width: 200px;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+legend{
+    font-size: 44px;
+}
+label{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+
+
+.btn{
+    flex: 1;
+}
+button{
+    background-color: #596D48;
+    width: 200px;
+    height: 70px;
+    border-radius: 16px;
+}
