@@ -44,7 +44,9 @@ body{
 .top-msg{
     flex: 1;
     padding: 90px 24px 12px 24px ;
+    font-size: 24px;
 }
+
 
 
 
@@ -65,15 +67,14 @@ body{
 }
 
 input{
-    max-width: 200px;  
+    max-width: 200px; 
+    border-color: rgba(4, 3, 5, 0.7) ;
 }
+
 input:focus{
-    border: blue solid;
+    border: solid blue;
 }
-#error[data-error] .password{
-    border-color: #c92432;
-    color: #c92432;
-}
+
 form{
     display: flex;
     flex-direction: column;
